@@ -1,15 +1,45 @@
+# Vim DarkEyes Colorscheme
 
-# Some of my config files
+A color scheme evolved from the [AsmanianBlood](http://www.vim.org/scripts/script.php?script_id=2499)
+[colorscheme](https://github.com/Droggelbecher/dotfiles-public/blob/8fee1094f7f1686c8439ad4be31a7ed5923578af/.vim/colors/asmanian_blood.vim).
+with decent support for both GUI and terminal.
 
-Some of my config files shared for the general public.
-Some are censored to not contain information that I'd like to keep secret,
-most things that contain a lot of account data / host names / very telling path names
-are just plainly left out.
+## Installation
 
-For that reason you'll find references to scripts or other files that do not exist
-in this repository. I'm sorry for the inconvenience, but you'll likely not be able
-to just blindly copy things from here and run them.
+Various ways to install
 
-If however you're just looking for inspiration for your own setup,
-you are very welcome to do so :-)
+### [Pathogen](https://github.com/tpope/vim-pathogen)
 
+```sh
+$ cd ~/.vim
+$ git submodule add git@github.com:bf4/vim-dark_eyes.git bundle/vim-dark_eyes
+```
+
+### [Plug](https://github.com/gmarik/Vundle.vi://github.com/junegunn/vim-plug)
+
+
+```vim
+Plug 'bf4/vim-dark_eyes'
+```
+
+### [Vundle](https://github.com/gmarik/Vundle.vim)
+
+```vim
+Plugin 'bf4/vim-dark_eyes'
+```
+
+### Manually
+
+Copy ```dark_eyes.vim``` into ```~/.vim/colors/``` (Unix) or
+```vimfiles/colors/``` (Windows).
+
+
+## Screenshots
+
+### GUI :
+
+### Terminal with 256 colors :
+
+## License
+
+MIT
